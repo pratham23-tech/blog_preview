@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="font" href="https://fonts.google.com/specimen/Figtree"/>
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: yellow;
+      font-family: Figtree;
+    }
+    .card{
+      background-color: white;
+      height: 50%;
+      width: 25%;
+      border-radius: 9%;
+      position: relative;
+      left: 35%;
+      top: 150px;
+      border: 2px solid black;
+      border-right: 10px solid black;
+      border-bottom: 10px solid black;
+      
+    }
+    img{
+      padding: 18px;
+      border-radius: 15%;
+      width: 90%;
+      height: 100%;
+    }
+    #heading{
+      background-color: yellow;
+      width: 25%;
+      border-radius: 10%;
+      position: relative;
+      margin-left: 18px;
+      font-weight: 800;
+    }
+    #name{
+      font-size: medium;
+      padding: 0;
+      font-weight: 800;
+    }
+    .text{
+      padding-left: 18px;
+      margin-top: 10px;
+      font-weight: 500;
+      
+    }
+    #htmlhead{
+      font-weight: 800;
+    }
+    .profileimg{
+      height: 10%;
+      width: 10%;
+      margin-bottom: 0;
+    }
+    .profiletext{
+      position: relative;
+      left:20%;
+      bottom: 50px;
+      margin-left: 5px;
+      
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <img src="./assets/images/illustration-article.svg"/>
+
+    <h3 id="heading" class="text">Learning</h3>
+
+    <p class="text">Published 21 Dec 2023</p>
+
+    <h2 id="htmlhead" class="text">HTML & CSS foundations</h2>
+
+    <p class="text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+    <img class="profileimg" src="./assets/images/image-avatar.webp"/>
+
+    <div class="profiletext">
+      
+      <h3 id="name"  class="text">Greg Hooper</h3>
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
